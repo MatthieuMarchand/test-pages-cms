@@ -7,7 +7,7 @@ content:
   - name: tableaux
     label: Mes Tableaux
     type: collection
-    path: src/content/tableaux
+    path: src/content/tableauxx
     fields:
       - name: title
         label: Titre du tableau
