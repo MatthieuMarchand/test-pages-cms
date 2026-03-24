@@ -1,13 +1,13 @@
 media:
-  input: src/content/imagess
-  output: /imagess
+  input: src/content/images
+  output: /images
 
 content:
 # PREMIÈRE COLLECTION : LES TABLEAUX
-  - name: tableauxx
+  - name: tableaux
     label: Mes Tableaux
     type: collection
-    path: src/content/tableauxx
+    path: src/content/tableaux
     fields:
       - name: title
         label: Titre du tableau
@@ -23,10 +23,10 @@ content:
         type: number
 
 # DEUXIÈME COLLECTION : LES ACTUALITÉS
-  - name: articless
+  - name: articles
     label: Mes Actualités
     type: collection
-    path: src/content/articless
+    path: src/content/articles
     fields:
       - name: title
         label: Titre de l'article
