@@ -1,0 +1,36 @@
+media:
+  input: src/content/images
+  output: /images
+
+content:
+# PREMIÈRE COLLECTION : LES TABLEAUX
+  - name: tableaux
+    label: Mes Tableaux
+    type: collection
+    path: src/content/tableaux
+    fields:
+      - name: title
+        label: Titre du tableau
+        type: string
+      - name: description
+        label: Description
+        type: rich-text
+      - name: image
+        label: Photo du tableau
+        type: image
+      - name: prix
+        label: Prix (en €)
+        type: number
+
+# DEUXIÈME COLLECTION : LES ACTUALITÉS
+  - name: articles
+    label: Mes Actualités
+    type: collection
+    path: src/content/articles
+    fields:
+      - name: title
+        label: Titre de l'article
+        type: string
+      - name: content
+        label: Contenu
+        type: rich-text
