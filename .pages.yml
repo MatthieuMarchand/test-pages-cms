@@ -1,6 +1,6 @@
 media:
-  input: src/content/images
-  output: /images
+  input: src/content/imagess
+  output: /imagess
 
 content:
 # PREMIÈRE COLLECTION : LES TABLEAUX
@@ -23,10 +23,10 @@ content:
         type: number
 
 # DEUXIÈME COLLECTION : LES ACTUALITÉS
-  - name: articles
+  - name: articless
     label: Mes Actualités
     type: collection
-    path: src/content/articles
+    path: src/content/articless
     fields:
       - name: title
         label: Titre de l'article
