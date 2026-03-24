@@ -4,7 +4,7 @@ media:
 
 content:
 # PREMIÈRE COLLECTION : LES TABLEAUX
-  - name: tableaux
+  - name: tableauxx
     label: Mes Tableaux
     type: collection
     path: src/content/tableauxx
