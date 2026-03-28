@@ -45,4 +45,5 @@ content:
         label: Date de publication
         type: date
         options:
+          time: true
           format: yyyy-MM-dd
