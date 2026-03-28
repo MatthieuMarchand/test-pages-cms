@@ -26,7 +26,6 @@ content:
         type: date
         default: ""
         options:
-          time: true
           format: yyyy-MM-dd
 
 # DEUXIÈME COLLECTION : LES ACTUALITÉS
@@ -45,5 +44,4 @@ content:
         label: Date de publication
         type: date
         options:
-          time: true
           format: yyyy-MM-dd
