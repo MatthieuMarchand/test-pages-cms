@@ -1,6 +1,5 @@
 ---
-title: logo Ouest-France	 Vendredi 28 novembre 2025 09:00 L’art de Philippe
-  Journiac s’expose chez Cerise Créations, à Vire Normandie
+title: L’art de Philippe Journiac s’expose chez Cerise Créations, à Vire Normandie
 content: |-
   ## Le peintre Philippe Journiac expose ses marines, jusqu’à début décembre 2025, à la galerie Cerise Créations, à Vire Normandie (Calvados). Sa passion pour la peinture existe depuis son enfance.
 
