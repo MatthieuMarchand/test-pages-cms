@@ -40,6 +40,9 @@ content:
       - name: content
         label: Contenu
         type: rich-text
+      - name: image
+        label: Image de l'actualité
+        type: image
       - name: publish_at
         label: Date de publication
         type: date
