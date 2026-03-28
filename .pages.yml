@@ -21,6 +21,13 @@ content:
       - name: prix
         label: Prix (en €)
         type: number
+      - name: date_created
+        label: Date de création
+        type: date
+        default: ""
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm
 
 # DEUXIÈME COLLECTION : LES ACTUALITÉS
   - name: articles
@@ -34,3 +41,10 @@ content:
       - name: content
         label: Contenu
         type: rich-text
+      - name: publish_at
+        label: Date de publication
+        type: date
+        default: ""
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm
