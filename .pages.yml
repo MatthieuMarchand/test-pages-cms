@@ -27,7 +27,7 @@ content:
         default: ""
         options:
           time: true
-          format: yyyy-MM-dd'T'HH:mm
+          format: yyyy-MM-dd
 
 # DEUXIÈME COLLECTION : LES ACTUALITÉS
   - name: articles
@@ -44,7 +44,5 @@ content:
       - name: publish_at
         label: Date de publication
         type: date
-        default: ""
         options:
-          time: true
-          format: yyyy-MM-dd'T'HH:mm
+          format: yyyy-MM-dd
